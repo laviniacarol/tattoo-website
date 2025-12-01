@@ -1,0 +1,87 @@
+import styled from "styled-components";
+import AboutBg from "../../assets/images/About.svg"; 
+
+export const AboutContainer = styled.section`
+  width: 100%;
+  min-height: 100vh;
+  background: url(${AboutBg}) center/cover no-repeat;
+  background: 
+    linear-gradient(to top, #0a000050, #00000018),
+    url(${AboutBg}) center/cover no-repeat;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: clamp(10px, 6vw, 60px);
+
+  color: #f8f4f2ff;
+
+  margin-top: clamp(-70px, -15vw, -50px);
+
+  @media (max-width: 900px) {
+    flex-direction: column;
+    text-align: center;
+    gap: clamp(0px, 10vw, 80px);
+  }
+`;
+
+export const Name = styled.h1`
+  font-family: "Vasquz", sans-serif;
+
+  font-size: clamp(28px, 4vw, 54px);
+  margin-bottom: clamp(8px, 1vw, 10px);
+  margin-top: clamp(20px, 3vw, 70px);
+
+  text-transform: uppercase;
+  color: #f8f4f2ff;
+  letter-spacing: clamp(0.5px, 0.4vw, 2px);
+
+  @media (max-width: 900px) {
+    margin-top: clamp(220px, 5vw, 40px);
+  }
+`;
+
+export const Line = styled.hr`
+  height: clamp(1px, 0.4vw, 2px);
+  background-color: #f8f4f2ff;
+  border: none;
+  margin-bottom: clamp(5px, 3vw, 20px);
+`;
+
+
+
+export const TextBox = styled.div`
+  background: #fff;
+  padding: clamp(5px, 3vw, 25px);
+  border-radius: 4px;
+`;
+
+export const AboutText = styled.p`
+  font-family: "Qasbyne", sans-serif;
+  font-size: clamp(22px, 3vw, 31px);
+  line-height: 1.4;
+  font-weight: 400;
+  margin: 0;
+  width: clamp(240px, 70vw, 500px);
+  margin: 0 auto;
+  color: #faf5f3ff;
+`;
+
+export const Portrait = styled.img`
+  width: clamp(240px, 32vw, 420px);
+  height: auto;
+  border-radius: 200px;
+  padding-top: clamp(0px, 2vw, 60px);
+
+  transition: all 0.3s ease;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+
+  @media (max-width: 900px) {
+    align-self: center; 
+    border-radius: 4px;
+    margin-top: clamp(0px, 10vw, 120px);
+  }
+`;
