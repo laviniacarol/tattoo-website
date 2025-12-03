@@ -31,10 +31,10 @@ export const Left = styled.img`
 `;
 
 export const Street = styled.p`
-  font-size: clamp(16px, 2vw, 20px);
+  font-size: clamp(14px, 1vw, 17px);
   font-family: "Qasbyne", sans-serif;
   color: white;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
 `;
 
 export const MainContent = styled.div`
@@ -43,7 +43,7 @@ export const MainContent = styled.div`
   align-items: flex-start;
   width: 50%;
   border: 1px solid white;
-  padding: clamp(20px, 4vw, 60px) clamp(15px, 3vw, 30px);
+  padding: clamp(20px, 1vw, 60px) clamp(15px, 3vw, 30px);
 
   @media (max-width: 900px) {
     width: 100%;

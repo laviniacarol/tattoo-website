@@ -3,7 +3,9 @@ import styled from "styled-components";
 export const Background = styled.section`
   width: 100%;
   min-height: 100vh;
-
+  
+  overflow: hidden;
+   
   background: radial-gradient(
     circle at center,
     #3b0000 0%,
@@ -23,6 +25,8 @@ export const Frame = styled.div`
   text-align: center;
   font-family: "Qasbyne", sans-serif;
   max-width: 1540px;
+   
+  overflow: hidden;
 
   border: 1px solid white;
 
@@ -52,6 +56,9 @@ export const InnerContent = styled.div`
   align-items: center;
   width: 100%;
 
+  overflow: hidden;
+
+
   gap: clamp(20px, 4vw, 80px);
 
   @media (max-width: 900px) {
@@ -64,10 +71,10 @@ export const LeftBox = styled.div`
   max-width: clamp(280px, 70vw, 650px);
   border: 1px solid white;
 
-  padding: clamp(30px, 5vw, 50px);
-  margin-left: 25vw;
+  padding: clamp(30px, 5vw, 0px);
+  margin-left: 28vw;
 
-  margin-bottom: clamp(40px, 10vw, 120px);
+  margin-bottom: clamp(40px, 0vw, 120px);
 
   text-align: center;
   display: flex;
@@ -84,6 +91,8 @@ export const LeftBox = styled.div`
 export const InfoBox = styled.div`
   display: flex;
   flex-direction: column;
+  overflow: hidden;
+
   gap: clamp(10px, 3vw, 25px);
 `;
 
@@ -91,6 +100,7 @@ export const InfoText = styled.p`
   font-size: clamp(1.2rem, 3.5vw, 2.2rem);
   color: #fff;
   line-height: 1.4;
+  overflow: hidden;
 `;
 
 export const WppIcon = styled.img`
@@ -102,4 +112,10 @@ export const WppIcon = styled.img`
 export const RightImage = styled.img`
   width: clamp(180px, 30vw, 380px);
   height: auto;
+
+    @media (min-width: 900px) and (max-width: 942px) {
+    position: relative;
+    top: 90px;
+    width: 400px;
+  }
 `;

@@ -28,9 +28,11 @@ export const AboutContainer = styled.section`
 export const Name = styled.h1`
   font-family: "Vasquz", sans-serif;
 
-  font-size: clamp(28px, 4vw, 54px);
-  margin-bottom: clamp(8px, 1vw, 10px);
-  margin-top: clamp(20px, 3vw, 70px);
+  font-size: clamp(28px, 4vw, 40px);
+  margin-bottom: clamp(8px, 1vw, 0px);
+  margin-top: clamp(20px, 3vw, 120px);
+  padding: clamp(0px, 1vw, 25px);
+
 
   text-transform: uppercase;
   color: #f8f4f2ff;
@@ -44,8 +46,10 @@ export const Name = styled.h1`
 export const Line = styled.hr`
   height: clamp(1px, 0.4vw, 2px);
   background-color: #f8f4f2ff;
+  width: clamp(200px, 4vw, 50px);
+  margin-left: clamp(40px, 0vw, 20px);
   border: none;
-  margin-bottom: clamp(5px, 3vw, 20px);
+  margin-bottom: clamp(5px, 3vw, 5px);
 `;
 
 
@@ -58,8 +62,9 @@ export const TextBox = styled.div`
 
 export const AboutText = styled.p`
   font-family: "Qasbyne", sans-serif;
-  font-size: clamp(22px, 3vw, 31px);
-  line-height: 1.4;
+  font-size: clamp(22px, 3vw, 24px);
+  line-height: 1.3;
+  padding: clamp(10px, 2vw, 20px);
   font-weight: 400;
   margin: 0;
   width: clamp(240px, 70vw, 500px);
