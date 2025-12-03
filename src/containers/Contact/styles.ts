@@ -113,9 +113,9 @@ export const RightImage = styled.img`
   width: clamp(180px, 30vw, 380px);
   height: auto;
 
-    @media (min-width: 900px) and (max-width: 942px) {
+    @media (min-width: 900px)  {
     position: relative;
     top: 90px;
-    width: 400px;
+    width: 480px;
   }
 `;

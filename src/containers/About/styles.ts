@@ -41,16 +41,30 @@ export const Name = styled.h1`
   @media (max-width: 900px) {
     margin-top: clamp(220px, 5vw, 40px);
   }
+
+   @media (min-width: 900px) {
+   padding-left: 80px;
+   margin-top: 80px;
+
 `;
 
 export const Line = styled.hr`
   height: clamp(1px, 0.4vw, 2px);
   background-color: #f8f4f2ff;
-  width: clamp(200px, 4vw, 50px);
-  margin-left: clamp(40px, 0vw, 20px);
+  width: clamp(160px, 4vw, 70px);
+  margin-left: clamp(90px, 0vw, 20px);
   border: none;
   margin-bottom: clamp(5px, 3vw, 5px);
+
+  @media (min-width: 820px) {
+    width: 160px;
+    margin-left: 80px;
+  }
+
+  @media (max-width: 900px) {
+    margin: 0 auto;
 `;
+
 
 
 
@@ -70,12 +84,14 @@ export const AboutText = styled.p`
   width: clamp(240px, 70vw, 500px);
   margin: 0 auto;
   color: #faf5f3ff;
-`;
+
+  @media (min-width: 900px) {
+   padding-left: 80px;
+`
 
 export const Portrait = styled.img`
   width: clamp(240px, 32vw, 420px);
   height: auto;
-  border-radius: 200px;
   padding-top: clamp(0px, 2vw, 60px);
 
   transition: all 0.3s ease;
@@ -86,7 +102,10 @@ export const Portrait = styled.img`
 
   @media (max-width: 900px) {
     align-self: center; 
-    border-radius: 4px;
     margin-top: clamp(0px, 10vw, 120px);
+  }
+
+  @media (min-width: 900px) {
+    height: 350px;
   }
 `;
