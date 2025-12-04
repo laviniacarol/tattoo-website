@@ -1,73 +1,58 @@
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+README – Portfólio | Tattoo Artist
 
-Currently, two official plugins are available:
+Bem-vindo ao projeto do portfólio da tatuadora — um site criado para destacar trabalhos autorais com um visual clássico, dark e marcante. Tons de vermelho, sombras profundas e imagens com estética de pintura dão o clima intimista e artístico que o estúdio pede.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🎯 Objetivo
 
-## React Compiler
+O site foi desenvolvido com foco em:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Apresentar o portfólio de maneira elegante e imersiva
 
-## Expanding the ESLint configuration
+Criar uma primeira impressão forte, condizente com a estética artística da tatuadora
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+Facilitar o contato e agendamento
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+Transmitir confiança, personalidade e estilo
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+🛠 Tecnologias Utilizadas
+Tecnologia	Função
+React + Vite	Performance e carregamento rápido
+TypeScript	Tipagem estática e maior segurança no código
+Styled-Components	Estilização dinâmica e componentizada
+useState / useEffect	Controle de estado e efeitos no React
+📌 Conceito Visual
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+Paleta: vermelho profundo, preto e tons escuros
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Referências: pintura, óleo sobre tela, clássico, sombras
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+Estética: minimalista, mas imersiva
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+Tipografia: contraste entre títulos fortes e textos clean
+
+O site é pensado para destacar imagens, não esconder. A ideia é que cada foto seja tratada como uma obra exposta.
+
+🚀 Funcionalidades
+
+Galeria de trabalhos
+
+Seção sobre a artista
+
+Contato e redes sociais
+
+Layout responsivo
+
+📩 Contato
+
+Se quiser colaborar, sugerir melhorias ou apenas deixar um elogio (aceita-se elogios em forma de café):
+
+Abra um PR ou me chame!
+
+<h1>Imagens do Projeto</h1>
+<img width="1902" height="878" alt="1" src="https://github.com/user-attachments/assets/6dcee905-1499-40e6-9cf1-415a459406a9" />
+<img width="1899" height="908" alt="2" src="https://github.com/user-attachments/assets/155b5048-53d9-45fc-a0b7-c0f2e8377674" />
+<img width="1902" height="913" alt="3" src="https://github.com/user-attachments/assets/ea704175-d5de-4f13-ba86-9fc61cbad087" />
+<img width="1901" height="921" alt="4" src="https://github.com/user-attachments/assets/9b526c48-9e4b-4613-be57-148d0be159a9" />
+<img width="1901" height="915" alt="5" src="https://github.com/user-attachments/assets/14f1d42f-e6c0-4e2c-ab7c-cc4d4424ab50" />
+<img width="1903" height="238" alt="6" src="https://github.com/user-attachments/assets/c209169c-fdaf-4d4e-8cd6-691e2d20eb87" />
