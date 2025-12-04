@@ -3,6 +3,8 @@ README – Portfólio | Tattoo Artist
 
 Bem-vindo ao projeto do portfólio da tatuadora — um site criado para destacar trabalhos autorais com um visual clássico, dark e marcante. Tons de vermelho, sombras profundas e imagens com estética de pintura dão o clima intimista e artístico que o estúdio pede.
 
+https://vitorializ-portfolio.netlify.app/
+
 🎯 Objetivo
 
 O site foi desenvolvido com foco em:
