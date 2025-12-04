@@ -13,7 +13,7 @@ import {
 import LogoImage from "../../assets/logo2.svg";
 
 import Img1 from "../../assets/images/FlowerTat.jpeg";
-import Img2 from "../../assets/images/RabitTat.png";
+import Img2 from "../../assets/images/Rabit.jpeg";
 import Img3 from "../../assets/images/FlowersTat.jpg";
 import Img4 from "../../assets/images/SkullTatt.jpeg";
 import Img5 from "../../assets/images/OldTatt.jpeg";
