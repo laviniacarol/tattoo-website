@@ -9,7 +9,7 @@ import foto from "../../assets/images/vitoria.svg";
 
 function About() {
   return (
-    <AboutContainer>
+    <AboutContainer id="about">
         <div>
           <Name>VITÓRIA LIZ</Name>
           <Line/>

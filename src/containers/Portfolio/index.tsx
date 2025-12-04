@@ -12,11 +12,11 @@ import {
 
 import LogoImage from "../../assets/logo2.svg";
 
-import Img1 from "../../assets/images/ButterflyTat.png";
+import Img1 from "../../assets/images/FlowerTat.jpeg";
 import Img2 from "../../assets/images/RabitTat.png";
-import Img3 from "../../assets/images/MarshTat.png";
-import Img4 from "../../assets/images/ScorpionTat.png";
-import Img5 from "../../assets/images/BirdTat.png";
+import Img3 from "../../assets/images/FlowersTat.jpg";
+import Img4 from "../../assets/images/SkullTatt.jpeg";
+import Img5 from "../../assets/images/OldTatt.jpeg";
 
 const images = [Img1, Img2, Img3, Img4, Img5];
 
@@ -34,7 +34,7 @@ export default function Portfolio() {
   const next = () => setIndex((i) => (i + 1) % images.length);
 
   return (
-    <Container>
+    <Container id="services">
       <Slides>
         <Arrow direction="left" onClick={prev}>◀</Arrow>
 

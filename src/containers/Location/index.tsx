@@ -4,7 +4,7 @@ import { Container, MainContent, Title, Line, Left, Street } from "./styles";
 
 export default function Location() {
   return (
-    <Container>
+    <Container id="contact">
       <Left src={LadyImage} alt="Lady Tattoo" />
 
       <MainContent>

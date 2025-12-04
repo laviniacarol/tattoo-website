@@ -3,7 +3,7 @@ import letter from "../../assets/images/Letter.png";
 
 function Hero() {
   return (
-    <HeroContainer>
+    <HeroContainer id="home">
       <LetterImg src={letter} alt="Letter" />
       <Tattoo>TATTOO</Tattoo>
       <Button
